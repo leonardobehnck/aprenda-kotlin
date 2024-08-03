@@ -23,9 +23,11 @@ fun main() {
     
     // Criando um usuário
     val usuarioLeonardo = Usuario(nome = "Leonardo")
+    val usuarioMaycon = Usuario(nome = "Maycon")
     
     // Matriculando o usuário na formação
     formacaoProgramacao.matricular(usuarioLeonardo)
+    formacaoProgramacao.matricular(usuarioMaycon)
     
     // Imprimindo os detalhes da formação e dos inscritos
     println(formacaoProgramacao)
